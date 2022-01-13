@@ -1,0 +1,18 @@
+{
+    "volume_train": "./data/volume_train.npz",
+    "volume_test": "./data/volume_test.npz",
+    "flow_train": "./data/flow_train.npz", 
+    "flow_test": "./data/flow_test.npz",
+    "volume_train_max": [1283.0,1289],
+    "volume_test_max": [1283.0,1289],
+    "flow_train_max": 122.0,
+    "flow_test_max": 173.0,
+    "timeslot_sec": 1800,
+    "threshold": 10,
+    "description": "./data/Readme.txt",
+    "local_context_len": 6,
+    "trend_num": 6,
+    "daily_period_num": 10,
+    "weekly_period_num": 4
+
+} 
