@@ -14,5 +14,5 @@ Requirements
 
 ## Description
 
-  - The data is available in the '/data', which is from the prior STDN.
+  - The data are available in the '/data', which is from the prior [STDN](https://github.com/tangxianfeng/STDN).
   - Run with "python train.py" to train the model.
