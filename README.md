@@ -2,7 +2,7 @@
 
 
 ## About
-Implementation of the paper [A Lightweight and Accurate Spatial-Temporal Transformer for Traffic Forecasting](https://arxiv.org/abs/2201.00008)
+Implementation of the paper [A Lightweight and Accurate Spatial-Temporal Transformer for Traffic Forecasting](https://arxiv.org/abs/2201.00008).
 
 Thanks for your attention to this work. More details will be released soon.
 
