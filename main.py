@@ -8,7 +8,6 @@ import json
 from torch.nn.functional import relu
 import numpy as np
 import random 
-from generate_graph import gen_graph
 
 #random.seed(10)
 
