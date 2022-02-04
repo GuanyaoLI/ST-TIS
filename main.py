@@ -230,24 +230,5 @@ if __name__ == '__main__':
     threshold = 10 / config['volume_train_max'][0]
     num = 4
     train(threshold, config_path, max_epoch=1000, patience=20, num_layer=3, head_num=num, type='bike')
-    '''for config_path in ['./bike_data.json']:
-        config = json.load(open(config_path, "r"))
-        threshold = 10 / config['volume_train_max'][0]
-        for num in [8]:
-            for i in range(3):
-                train(threshold, config_path, max_epoch=1000, patience=20, num_layer = 3, head_num = num, type = 'bike')
-
-    for config_path in ['./taxi_data.json']:
-        config = json.load(open(config_path, "r"))
-        threshold = 10 / config['volume_train_max'][0]
-        for num in [8]:
-            for i in range(3):
-                train(threshold, config_path, max_epoch=1000, patience=20, num_layer = 3, head_num = num, type = 'taxi')'''
-    '''num_layer = 4
-    head_num = 8
-    dataset =  './bike_data.json'
-    model = ST_model.STForecasting(num_encoder_layers=num_layer, dataset=dataset, d_model=8 * head_num,
-                                   nhead=head_num).cuda()
-
-    get_parameter_number(model)'''
+    
 
